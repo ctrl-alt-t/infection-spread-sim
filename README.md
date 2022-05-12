@@ -1,11 +1,12 @@
-# Infection simulation
+# Infection spreading simulation
 
 This simulates an infection spreading in a population. Population is modeled as a grid.
 
 Green cells are alive people who have never been infected, yellow cells are currently infected people, blue are immune people (assumption is that if a person doesn't die they get permanent immunity), red cells are dead people.
 
-## Entering parameters
+## How to run
 
+Run `simulate_spread.py`.
 Parameters for the simulation are entered in the terminal after which simulation starts and is shown in a new window.
 When choosing how the infection spreads you can choose to look at 4 nearest neighbors (up, down, left, right) or 8 nearest neighbors (same as 4 + diagonals).
 
